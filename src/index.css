@@ -1,0 +1,31 @@
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 16px;
+  line-height: 1.6;
+}
+
+section {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 24px;
+}
+
+button {
+  font-size: 16px;
+  padding: 6px 14px;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+input {
+  font-size: 16px;
+  padding: 6px;
+}
+
+.done {
+  text-decoration: line-through;
+  color: #999;
+}
