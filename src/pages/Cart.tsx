@@ -12,7 +12,7 @@ import {useCart} from '../cart/cart-context.ts';
 function Cart() {
   const {items, dispatch, count, total} = useCart();
 
-  if (items.length == 0) {
+  if (items.length === 0) {
     return (
       <section>
         <h1>🛒 购物车</h1>
